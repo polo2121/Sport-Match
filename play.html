@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./play.css" />
+    <script src="jquery3.6.0.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>SPORT MATCH</h1>
+        <div class="selectSection">
+          <div class="continentSelect slide-bottom">
+            <label for="">Continent</label>
+            <select name="" id="continent">
+              <option class="selectContinent" value="Africa">Africa</option>
+              <option value="Asia">Asia</option>
+              <option value="Europe">Europe</option>
+              <option value="Oceania">Oceania</option>
+              <option value="North America">North America</option>
+              <option value="South America">South America</option>
+            </select>
+          </div>
+
+          <div class="selectCountry">
+            <label for="">Country</label>
+            <select name="" id="country" required>
+              <option class="selectContinent" value="">...</option>
+            </select>
+          </div>
+
+          <div class="selectAge">
+            <label for="max">Maxmimum Age</label>
+            <input type="number" id="max" placeholder="...">
+            </select>
+          </div>
+
+          <div class="selectAge">
+            <label for="min">Minimum Age</label>
+            <input type="number" id="min" placeholder="...">
+
+          </div>
+        </div>
+
+        <div class="resultInfo" >
+            <div class="resultContainer hidden" id="results">
+                
+            </div>          
+        </div>
+      </div>
+    </div>
+    <script src="./play.js"></script>
+  </body>
+</html>
